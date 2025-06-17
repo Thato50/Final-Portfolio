@@ -1,6 +1,7 @@
 *{padding: 0;
     margin: 0;}
-body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #f5f5f5;}
 .top{height:190px;
 background-color: #7c7d7f;
 color: #f5f5f5;}
@@ -8,7 +9,7 @@ color: #f5f5f5;}
     padding: 10px;}
 .icons{display: flex;
     gap:8px;}
-.list{float: right;}
+.list{text-align: right;}
 ul li{display: inline-block;
     margin:20px;}
 a{text-decoration: none;
@@ -17,16 +18,17 @@ a:hover{background-color: #343435;
     padding: 5px;}
 .home{background-color: #343435;
     padding: 19px;}
-.container{display: flex;} 
-
-
-
+.container{display: flex;}
+.me{margin-top: 90px;}
+hr{border: 3px solid #343435;
+    width: 330px;}
 .image{
-  width: 400px;
+    width: 400px;
   height: 400px;
   border-radius: 200px;
-  overflow: hidden;}        /* make the image circle*/
-
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: 40px;}        /* make the image circle*/
 .image img {
   width: 400px;
   height: auto;}
